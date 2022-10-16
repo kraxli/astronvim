@@ -40,7 +40,6 @@ see [Setups in astronivim/github.io](https://astronvim.github.io/#-setup)
 ## Merge updates of mehalter
 
 ```sh
-
 cd ~/.config/astronvim
 git remote add mehalter https://code.mehalter.com/AstroNvim_user
 
