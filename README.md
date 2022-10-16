@@ -14,7 +14,12 @@ git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
 
 ```sh
 # Linux:
-git clone https://github.com/kraxli/astroNvim-config-mh-plus.git ~/.config/astronvim
+
+# git clone https://github.com/kraxli/astroNvim-config-mh-plus.git ~/.config/astronvim
+git clone https://github.com/kraxli/astronvim ~/.config/astronvim
+
+# TODO clones as subdirectory
+git clone https://github.com/kraxli/astronvim_lua_user ~/.config/astronvim/lua/user
 
 # windows:
 git clone https://github.com/kraxli/astroNvim-config-mh-plus.git $APPDATA$\Local\astronvim
@@ -37,7 +42,7 @@ see [Setups in astronivim/github.io](https://astronvim.github.io/#-setup)
 ```sh
 
 cd ~/.config/astronvim
-git remote add mehalter https://code.mehalter.com/AstroNvim_user 
+git remote add mehalter https://code.mehalter.com/AstroNvim_user
 
 rm ~/.config/astronvim_sandbox -rf
 cp ~/.config/astronvim ~/.config/astronvim_sandbox -r
