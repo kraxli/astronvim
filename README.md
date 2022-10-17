@@ -4,13 +4,13 @@ My personal user config for AstroVim
 
 ## Installation
 
-- Install AstroNvim
+### AstroNvim
 
 ```sh
 git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
 ```
 
-- Install the user settings
+### User settings
 
 ```sh
 # Linux:
@@ -26,7 +26,7 @@ git clone https://github.com/kraxli/astroNvim-config-mh-plus.git ~\AppData\Local
 git submodule add https://github.com/kraxli/astronvim_lua_user.git ~\AppData\Local\astronvim\lua\user
 ```
 
-# Initialize AstroVim
+## Initialize AstroVim
 
 ```sh
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
