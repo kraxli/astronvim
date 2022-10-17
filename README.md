@@ -15,15 +15,15 @@ git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
 ```sh
 # Linux:
 
-git clone https://github.com/kraxli/astronvim ~/.config/astronvim
+git clone --recurse-submodules https://github.com/kraxli/astronvim ~/.config/astronvim
 git submodule add https://github.com/kraxli/astronvim_lua_user.git ~/.config/astronvim/lua/user
 
 # windows:
-git clone https://github.com/kraxli/astronvim $APPDATA$\Local\astronvim
-git submodule add https://github.com/kraxli/astronvim_lua_user.git $APPDATA$\Local\astronvim\lua\user
+git clone --recurse-submodules https://github.com/kraxli/astronvim $APPDATA$\Local\astronvim
+# git submodule add https://github.com/kraxli/astronvim_lua_user.git $APPDATA$\Local\astronvim\lua\user
 # Windows Powershell:
-git clone https://github.com/kraxli/astronvim ~\AppData\Local\astronvim
-git submodule add https://github.com/kraxli/astronvim_lua_user.git ~\AppData\Local\astronvim\lua\user
+git clone --recurse-submodules https://github.com/kraxli/astronvim ~\AppData\Local\astronvim
+# git submodule add https://github.com/kraxli/astronvim_lua_user.git ~\AppData\Local\astronvim\lua\user
 ```
 
 ## Initialize AstroVim
