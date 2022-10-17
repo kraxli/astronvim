@@ -19,10 +19,10 @@ git clone https://github.com/kraxli/astronvim ~/.config/astronvim
 git submodule add https://github.com/kraxli/astronvim_lua_user.git ~/.config/astronvim/lua/user
 
 # windows:
-git clone https://github.com/kraxli/astroNvim-config-mh-plus.git $APPDATA$\Local\astronvim
+git clone https://github.com/kraxli/astronvim $APPDATA$\Local\astronvim
 git submodule add https://github.com/kraxli/astronvim_lua_user.git $APPDATA$\Local\astronvim\lua\user
 # Windows Powershell:
-git clone https://github.com/kraxli/astroNvim-config-mh-plus.git ~\AppData\Local\astronvim
+git clone https://github.com/kraxli/astronvim ~\AppData\Local\astronvim
 git submodule add https://github.com/kraxli/astronvim_lua_user.git ~\AppData\Local\astronvim\lua\user
 ```
 
