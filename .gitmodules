@@ -1,9 +1,7 @@
-[submodule "local"]
-	path = local
-	url = https://github.com/kraxli/local-nvim.git
 [submodule "lua/user"]
 	path = lua/user
 	url = https://github.com/kraxli/astronvim_lua_user.git
 [submodule "/home/dave/.config/astronvim/lua/local"]
 	path = /home/dave/.config/astronvim/lua/local
 	url = https://github.com/kraxli/local-nvim.git
+
