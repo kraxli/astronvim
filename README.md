@@ -25,13 +25,13 @@ My personal user config for AstroVim
  Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 ```
 
-### Clean old plugins
+#### Clean old plugins
 
 ```sh
   Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 ```
 
-### Clone the repo
+#### Clone the repo
 
 ```sh
   git clone https://github.com/AstroNvim/AstroNvim $env:LOCALAPPDATA\nvim
@@ -39,7 +39,7 @@ My personal user config for AstroVim
   git clone https://github.com/kraxli/astronvim_lua_user2.git $env:LOCALAPPDATA\astronvim\lua\user
 ```
 
-# Initialize AstroVim
+### Initialize AstroVim
 
 ```sh
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
