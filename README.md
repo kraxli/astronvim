@@ -4,30 +4,42 @@ My personal user config for AstroVim
 
 ## Installation
 
-### AstroNvim
+### Linux
 
 ```sh
-git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
+  git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
+  git clone --recurse-submodules https://github.com/kraxli/astronvim ~/.config/astronvim
+  git submodule add <your local repo> ~/.config/astronvim/lua/local
+  git clone https://github.com/kraxli/astronvim_lua_user2.git ~/.config/astronvim/lua/user
 ```
 
-### User settings
+<!-- # windows: -->
+<!-- git clone --recurse-submodules https://github.com/kraxli/astronvim $APPDATA$\Local\astronvim -->
+<!-- git submodule add <your local repo> $APPDATA$\Local\astronvim\lua\local -->
+
+### Windows Powershell
+
+#### make back up
 
 ```sh
-# Linux:
-
-git clone --recurse-submodules https://github.com/kraxli/astronvim ~/.config/astronvim
-git submodule add <your local repo> ~/.config/astronvim/lua/local
-
-# windows:
-git clone --recurse-submodules https://github.com/kraxli/astronvim $APPDATA$\Local\astronvim
-git submodule add <your local repo> $APPDATA$\Local\astronvim\lua\local
-
-# Windows Powershell:
-git clone --recurse-submodules https://github.com/kraxli/astronvim ~\AppData\Local\astronvim
-git submodule add <your local repo> ~\AppData\Local\astronvim\lua\local
+ Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 ```
 
-## Initialize AstroVim
+### Clean old plugins
+
+```sh
+  Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+```
+
+### Clone the repo
+
+```sh
+  git clone https://github.com/AstroNvim/AstroNvim $env:LOCALAPPDATA\nvim
+  git clone --recurse-submodules https://github.com/kraxli/astronvim $env:LOCALAPPDATA\astronvim
+  git clone https://github.com/kraxli/astronvim_lua_user2.git $env:LOCALAPPDATA\astronvim\lua\user
+```
+
+# Initialize AstroVim
 
 ```sh
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
