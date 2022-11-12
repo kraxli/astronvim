@@ -19,10 +19,16 @@ My personal user config for AstroVim
 
 ### Windows Powershell
 
+In case you are using `nvim` on locked down machine, but you have (a) free location(s) on your drive, so you can change the workding directories.
+
+Most importantly set `XDG_DATA_HOME` as environmental (user) variable. E.g. `XDG_DATA_HOME=C:\SRDEV\config`.
+You can also the location of the configuration location of `nvim` and `astronvim` by setting `XDG_CONFIG_HOME` in your (user) environmental variables. E.g. `XDG_CONFIG_HOME=C:\SRDEV\config`. In case you set `XDG_CONFIG_HOME` you need to replace `$env:LOCALAPPDATA` below by `$env:XDG_CONFIG_HOME`.
+
 #### make back up
 
 ```sh
  Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+ Move-Item $env:LOCALAPPDATA\astronvim $env:LOCALAPPDATA\astronvim.bak
 ```
 
 #### Clean old plugins
