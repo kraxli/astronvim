@@ -24,6 +24,8 @@ In case you are using `nvim` on locked down machine, but you have (a) free locat
 Most importantly set `XDG_DATA_HOME` as environmental (user) variable. E.g. `XDG_DATA_HOME=C:\SRDEV\config`.
 You can also the location of the configuration location of `nvim` and `astronvim` by setting `XDG_CONFIG_HOME` in your (user) environmental variables. E.g. `XDG_CONFIG_HOME=C:\SRDEV\config`. In case you set `XDG_CONFIG_HOME` you need to replace `$env:LOCALAPPDATA` below by `$env:XDG_CONFIG_HOME`.
 
+Other special executables I have in `C:\SRDEV\bin`. This path I also add to my user-environment variables.
+
 #### make back up
 
 ```sh
