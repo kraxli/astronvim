@@ -1,18 +1,51 @@
+# To Do 
+
+- nvim-tree/nvim-tree.lua instead of nvim-neo-tree/neo-tree.nvim
+
+## Code runners
+
+- https://github.com/arjunmahishi/flow.nvim
+- sniprun (not working on windows)
+- code runnder?
+- dash.nvim
+- https://github.com/ten3roberts/recipe.nvim
+
+## Markdwon
+
+- micah used lukas-reineke/headlines.nvim: get it back?
+
+- https://github.com/NFrid/markdown-togglecheck
+- gaoDean/autolist.nvim
+- fcpg/vim-waikiki
+
+Markdwon previewers:
+
+  - https://github.com/oknozor/illumination (rust)
+  - https://github.com/euclio/vim-markdown-composer (rust)
+  - {"davidgranstrom/nvim-markdown-preview"},
+  - {"jghauser/follow-md-links.nvim"},
+  - {"NFrid/markdown-togglecheck"},
+
+
+- my function to increment / decrement headers
+- ixru/nvim-markdown
+- https://github.com/jakewvincent/mkdnflow.nvim
+- lervag/wiki.vim
+
+- https://dev.to/konstantin/taking-notes-in-vim-revisited-558k
+- http://joereynoldsaudio.com/2018/07/07/you-dont-need-vimwiki.html
+- https://timunkert.net/2021/12/using-neovim-as-a-markdown-editor.html
+
+
+## managing python environments
+
+- rafi/...
+
+## Miscelleneuous
+
 - changes to the auto-completion symbols have been some how introduced by commit from 2022-09-14
 
-- [x] user/settings.lua
-- [x] user/autocmds.lua
-- [x] autoload/\* -> markdown folding
-- [x] after/ftplugin
-- [x] user/utils.lua
-- [x] user/which-key/register_n_leader.lua ??
-- [x] which-key
-- [x] plugins
-- [x] [x] user.plugins.telescope".pickers
-- [x] local
-- [ ] update to micah, astronvim and to 0.8
-- [ ] rafi's missing pickers: /home/dave/Dropbox/LinuxInstall/astronvim.bak2mv/lua/user/plugins/telescope.lua
-- [ ] imap: ctrl-s
+- neovim move: https://alpha2phi.medium.com/neovim-101-motion-3b20c37b623a
 - [ ] Customize cmp Completion??
 - [ ] lazygit: don't show start up window, (go back)
 - [o] better / consistent quitting (closing) of buffers, expecially floating windows/buffers
@@ -38,8 +71,13 @@ https://alpha2phi.medium.com/neovim-tips-for-a-better-coding-experience-3d0f782f
 - [x] use {'nvim-treesitter/nvim-treesitter-refactor'}
 - [x] https://github.com/romgrk/nvim-treesitter-context
 
+## Configurations
+
+- [https://nvchad.com/]
+
 ## Plugins
 
+- https://github.com/kyazdani42/nvim-tree.lua
 - https://github.com/LinArcX/telescope-command-palette.nvim or "mrjones2014/legendary.nvim",
 
 ```lua

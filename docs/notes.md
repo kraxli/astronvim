@@ -16,7 +16,16 @@ nvim cache: /home/dave/.local/share/nvim/packer_compiled.lua
   declare -r LUNARVIM_RUNTIME_DIR="${LUNARVIM_RUNTIME_DIR:-"$XDG_DATA_HOME/lunarvim"}"
   declare -r LUNARVIM_CONFIG_DIR="${LUNARVIM_CONFIG_DIR:-"$XDG_CONFIG_HOME/lvim"}"
   declare -r LUNARVIM_BASE_DIR="${LUNARVIM_BASE_DIR:-"$LUNARVIM_RUNTIME_DIR/lvim"}"
+
 ```
+
+
+
+# Astronvim
+
+If you are using e.g. Micahl's config, you will notice that I have the file user/lsp/formatting.lua. You will need to put these settings in that file. As described in the documentation regarding splitting up the config, separate files take precedence over user/init.lua. so that file will not be used to load that option since other formatting options are defined in a separate file.
+
+see:https://github.com/AstroNvim/AstroNvim/issues/1259
 
 # Nice colorschemes supporting light and dark background
 

@@ -1,4 +1,3 @@
-
 choco install lazygit -f -y
 # scoop bucket add extras
 # scoop install lazygit
@@ -9,8 +8,12 @@ choco install ag -f -y
 choco install ripgrep-all -f -y
 choco install pandoc -f -y
 choco install win32yank -f -y
+choco install vale -f -y
 
 # choco install npm -f -y
+npm install tslib  # markdown-preview
+npm install -g @compodoc/live-server  # markdown-preview
+
 
 
 # choco install microsoft-windows-terminal –pre -f -y
