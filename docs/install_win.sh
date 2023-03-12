@@ -14,7 +14,8 @@ choco install vale -f -y
 npm install tslib  # markdown-preview
 npm install -g @compodoc/live-server  # markdown-preview
 
-
+choco install oh-my-posh  # similar to oh-my-zsh
+# instead of choco winget could be better
 
 # choco install microsoft-windows-terminal –pre -f -y
 # choco install zig -f -y

@@ -19,6 +19,14 @@ nvim cache: /home/dave/.local/share/nvim/packer_compiled.lua
 
 ```
 
+# Fixes
+
+ Error "heirline setup() takes only one argument"
+
+```bash
+  cd $XDG_DATA_HOME/nvim/site/pack/packer/opt/heirline.nvim/
+  git co f684e4c
+```
 
 
 # Astronvim
