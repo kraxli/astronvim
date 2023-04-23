@@ -1,6 +1,6 @@
 # Where to find what
 
-packer plugins directory: `/home/dave/.local/share/lunarvim/site/pack/packer`
+packer plugins directory: /home/dave/.local/share/nvim/lazy
 nvim cache: /home/dave/.local/share/nvim/packer_compiled.lua
 
 ```bash
@@ -19,7 +19,18 @@ nvim cache: /home/dave/.local/share/nvim/packer_compiled.lua
 
 ```
 
+utils.set_mappings(astronvim.user_opts("mappings", maps))
 
+dap under windows: https://github.com/AstroNvim/AstroNvim/issues/1605
+
+# Fixes
+
+Error "heirline setup() takes only one argument"
+
+```bash
+  cd $XDG_DATA_HOME/nvim/site/pack/packer/opt/heirline.nvim/
+  git co f684e4c
+```
 
 # Astronvim
 
