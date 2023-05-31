@@ -1,17 +1,29 @@
 # Fixes and Workarounds
 
-## ekickx/clipboard-image.nvim
+## ekickx/clipboard-image.nvim, 2023-05-31
 
 Health issue: https://github.com/ekickx/clipboard-image.nvim/issues/50
 
-## iamcco/markdown-preview.nvim",
+```zsh
+# modify the health.lua in clipboard-image plugin
+
+local health = vim.health or require "health"
+
+# instead of
+
+local health = require "health"
+
+# and it worked for me
+```
+
+## iamcco/markdown-preview.nvim, 2023-05-31
 
 tslib not found:
 
 ```zsh
-    # with npm:
-    cd $XDG_DATA_HOME/nvim/lazy/markdown-preview.nvim/app && npm install && npm audit fix --force
+# with npm:
+cd $XDG_DATA_HOME/nvim/lazy/markdown-preview.nvim/app && npm install && npm audit fix --force
 
-    # or with yarn:
-   cd $XDG_DATA_HOME/nvim/lazy/markdown-preview.nvim/app && yarn install
+# or with yarn:
+cd $XDG_DATA_HOME/nvim/lazy/markdown-preview.nvim/app && yarn install
 ```
