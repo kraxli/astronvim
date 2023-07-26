@@ -21,6 +21,10 @@ sudo apt-get install xclip
 sudo apt install pcre2-utils
 sudo luarocks install luarocks-fetch-gitrec # --local
 
+# for https://github.com/jupyter-vim/jupyter-vim
+sudo apt install jupyter jupyter-core
+sudo apt install -y python-tk
+
 # -- display images --
 sudo pip3 install --upgrade Pillow
 # pip uninstall pillow
@@ -47,7 +51,8 @@ sudo pip install pylsp-rope
 sudo pip install pyls-memestra pyls-isort pyls-flake8
 sudo pip install black
 sudo pip install isort
-
+sudo pip install ipdb
+sudo pip install bpython
 # -- lazy git --
 sudo add-apt-repository ppa:lazygit-team/release
 sudo apt-get update

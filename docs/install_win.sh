@@ -22,3 +22,10 @@ choco install oh-my-posh # similar to oh-my-zsh
 
 # choco install microsoft-windows-terminal –pre -f -y
 # choco install zig -f -y
+
+# for https://github.com/jupyter-vim/jupyter-vim
+pip install jupyter
+pip install ipdb
+
+# ~/.npmrc
+# strict-ssl=false
