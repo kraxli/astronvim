@@ -11,6 +11,7 @@ brew install gcc
 brew doctor
 
 sudo apt -y install npm
+sudo apt -y install libsqlite3-dev # required for ipython
 
 #######################################################
 # install packages and tools
