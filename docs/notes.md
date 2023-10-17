@@ -1,3 +1,10 @@
+# Configurations
+
+```sh
+ipython -i --no-autoindent --no-autoedit-syntax --nosep
+# -i or --pylab or --matplotlib
+```
+
 # Where to find what
 
 packer plugins directory: /home/dave/.local/share/nvim/lazy

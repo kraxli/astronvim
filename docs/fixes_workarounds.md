@@ -34,3 +34,7 @@ cd $XDG_DATA_HOME/nvim/lazy/markdown-preview.nvim/app && yarn install
 sudo apt-get install libsqlite3-dev
 pyenv uninstall 3.x.yy && pyenv install 3.x.yy
 ```
+
+## Treesitter
+
+Disable `treesitter` by e.g. `TSBufDisable markdown`. To see a list of modules, see `TSModuleInfo`.

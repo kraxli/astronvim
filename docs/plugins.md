@@ -1,7 +1,7 @@
 # Plugins to checkout / include
 
-- [x] tagbar or vista
 - [ ] "rafi/vim-sidemenu" see rafi/nvim-config
+- [ ] https://github.com/amrbashir/nvim-docs-view (just use <leader>K)
 
 ## Journaling / writing
 

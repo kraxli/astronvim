@@ -1,3 +1,7 @@
+# General
+
+show documentation of function below cursor: `<leader>lK` or `<leader>K`
+
 # Python
 
 ```vim

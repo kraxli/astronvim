@@ -25,6 +25,8 @@ sudo luarocks install luarocks-fetch-gitrec # --local
 # for https://github.com/jupyter-vim/jupyter-vim
 sudo apt install jupyter jupyter-core
 sudo apt install -y python-tk
+sudo apt-get install "python3-qt*"
+sudo pip3 install pyqt5
 
 # -- display images --
 sudo pip3 install --upgrade Pillow
